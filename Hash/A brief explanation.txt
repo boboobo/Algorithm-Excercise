@@ -1,0 +1,8 @@
+The seek algorithm of typical data increases average navigation time as the number of data grows. 
+However, Hash is a data structure that ensures that all data is searched for the same amount of time regardless of the size of the data. 
+Therefore, the hash is mainly used for applications where the amount of data is handled and the search speed is critical. 
+The search / insert of the data in the hash goes through the following process :
+
+1. Attain the k value k through the content of the material
+2. Using hash value k for index, search a data or store a data in spicific location.(e.g., search/store tablek[k])
+3. If data is already stored in the table[k], apply the algorithm to locate the appropriate position in the table and store the data in there.
