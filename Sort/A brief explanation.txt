@@ -1,0 +1,15 @@
+The Quick sort is the sorting method using the divide-and-conquer, 
+which performs sorting by repeating the 'partition' each step of the recursive call around pivot.
+
+The algorithm for Quick sort is described as follows :
+
+void quickSort(A[], p, r)   ?// <-  Sotring A[p ... r] 
+{ 
+        if (p < r) then { 
+		q = partition(A, p, r);  // implement partition() 
+		quickSort(A, p, q-1);  // recursive call quick sort for left side of partition 
+		quickSort(A, q+1, r);  // recursive call quick sort for right side of partition 
+        } 
+} 
+
+
