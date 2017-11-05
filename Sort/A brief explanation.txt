@@ -3,7 +3,7 @@ which performs sorting by repeating the 'partition' each step of the recursive c
 
 The algorithm for Quick sort is described as follows :
 
-void quickSort(A[], p, r)   ?// <-  Sotring A[p ... r] 
+void quickSort(A[], p, r)   // <-  Sotring A[p ... r] 
 { 
         if (p < r) then { 
 		q = partition(A, p, r);  // implement partition() 
